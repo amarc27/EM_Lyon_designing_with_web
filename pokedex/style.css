@@ -1,0 +1,68 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(http://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  margin: 2em;
+  text-align: center;
+  background-image: url("https://i.pinimg.com/originals/1c/a6/e1/1ca6e1c35e2d884230242cc0326dbf28.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-top: 50px;
+  font-style: italic;
+  color: #373fff;
+}
+
+#subtitle {
+  color: darkgreen;
+  font-style: bold;
+}
+
+#pokeList {
+  background-color: #ffcb4d;
+  margin-top: 80px;
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px #aeaeae;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#pokeList:hover {
+  box-shadow: 10px 10px 30px #aeaeae;
+  transition-duration: 0.5s;
+}
+
+#pokeList p:first-child {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+#pokeList img {
+  width: 120px;
+  height: auto;
+}
+
+#pokeList .data {
+  margin: 0px;
+}

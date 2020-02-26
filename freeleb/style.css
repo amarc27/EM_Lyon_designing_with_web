@@ -1,0 +1,65 @@
+/* CSS files add styling rules to your content */
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat&display=swap');
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0px;
+  border: 15px solid cornflowerblue;
+}
+
+h1 {
+  font-style: italic;
+  margin-top: 40px;
+  color: cornflowerblue;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Dancing Script';
+  font-size: 40px;
+}
+
+#tales {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tale {
+  margin: 60px 0px;
+}
+
+.inner-tale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner-tale p {
+  font-family: 'Montserrat';
+  font-size: 20px;
+  width: 100%;
+  line-height: 40px;
+}
+
+.inner-tale p em {
+  font-weight: 700;
+}
+
+
+.inner-tale img {
+  width: 40%;
+}
+
+footer p {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
